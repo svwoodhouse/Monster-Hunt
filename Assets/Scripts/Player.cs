@@ -36,11 +36,32 @@ public class Player : MonoBehaviour
     void Update()
     {
         PlayerMoveKeyboard();
+        AnimatePlayer();
     }
     
     void PlayerMoveKeyboard()
     {
         movementX = Input.GetAxisRaw("Horizontal");
         transform.position += new Vector3(movementX, 0f, 0f) * Time.deltaTime * moveForce;
+    }
+
+    void AnimatePlayer()
+    {
+        // The player is moving to the right side
+        if (movementX > 0)
+        {
+            anim.SetBool(WALK_ANIMATION, true);
+            sr.flipX = false;
+        }
+        // The player is moving to the left side
+        else if(movementX < 0)
+        {
+            anim.SetBool(WALK_ANIMATION, true);
+            sr.flipX = true;
+        }
+        else
+        {
+            anim.SetBool(WALK_ANIMATION, false);
+        }
     }
 }
