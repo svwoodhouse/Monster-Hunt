@@ -20,20 +20,8 @@ public class UsernameFollow : MonoBehaviour
     void LateUpdate()
     {
         tempPos = transform.position;
-        tempPos.x = mainCamera.position.x;
-        tempPos.y = mainCamera.position.y;
-
-        if (tempPos.x < minX)
-            tempPos.x = minX;
-
-        if (tempPos.x > maxX)
-            tempPos.x = maxX;
-
-        if (tempPos.y < minY)
-            tempPos.y = minY;
-
-        if (tempPos.y > maxY)
-            tempPos.y = maxY;
+        tempPos.x = mainCamera.position.x - 6;
+        tempPos.y = mainCamera.position.y + 4;
 
         transform.position = tempPos;
     }
