@@ -22,17 +22,22 @@ public class Player : MonoBehaviour
     private bool isGrounded = true;
     private string GROUND_TAG = "Ground";
 
+    private int playerScore;
+    private string CHEST_TAG = "Chest";
+    private int CHEST_SCORE = 1000;
+
     private void Awake()
     {
         myBody = GetComponent<Rigidbody2D>();
         anim = GetComponent<Animator>();
 
         sr = GetComponent<SpriteRenderer>();
+
     }
     // Start is called before the first frame update
     void Start()
     {
-        
+        PlayerScore = 0;
     }
 
     // Update is called once per frame
@@ -83,6 +88,19 @@ public class Player : MonoBehaviour
         if(collision.gameObject.CompareTag(GROUND_TAG))
         {
             isGrounded = true;
-        }   
+        } 
+
+        // Checks to see if player collides with chest and if so, updates the score
+        if(collision.gameObject.CompareTag(CHEST_TAG))
+        {
+            PlayerScore += CHEST_SCORE;
+        }
     }
+
+    public int PlayerScore
+    {
+        get { return playerScore; }
+        set { playerScore = value; }
+    }
+
 }
