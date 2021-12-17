@@ -25,6 +25,10 @@ public class Player : MonoBehaviour
     private int playerScore;
     private string CHEST_TAG = "Chest";
     private int CHEST_SCORE = 1000;
+    private string FRUIT_TAG = "Fruit";
+    private int FRUIT_SCORE = 500;
+    private string COIN_TAG = "Coin";
+    private int COIN_SCORE = 500;
 
     private void Awake()
     {
@@ -94,6 +98,18 @@ public class Player : MonoBehaviour
         if(collision.gameObject.CompareTag(CHEST_TAG))
         {
             PlayerScore += CHEST_SCORE;
+        }
+
+        // Checks to see if player collides with fruit and if so, updates the score
+        if (collision.gameObject.CompareTag(FRUIT_TAG))
+        {
+            PlayerScore += FRUIT_SCORE;
+        }
+
+        // Checks to see if player collides with fruit and if so, updates the score
+        if (collision.gameObject.CompareTag(COIN_TAG))
+        {
+            PlayerScore += COIN_SCORE;
         }
     }
 

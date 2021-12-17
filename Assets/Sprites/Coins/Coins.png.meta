@@ -1,60 +1,57 @@
 fileFormatVersion: 2
-guid: 1ddc9afd21fec77489b1248d18f31b68
+guid: 9ccd8d5de8d5bbd4b827fb2881e498f1
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: 7293598183456022363
-    second: Apple_0
+      213: -2322180950842035098
+    second: Coins_0
   - first:
-      213: 3211865404380153573
-    second: Apple_1
+      213: -4893972260818282012
+    second: Coins_1
   - first:
-      213: 4808522734667448011
-    second: Apple_2
+      213: -6323751108524238166
+    second: Coins_2
   - first:
-      213: -8577097333041121892
-    second: Apple_3
+      213: 2722280177590742205
+    second: Coins_3
   - first:
-      213: 1419576285154770477
-    second: Apple_4
+      213: 6582046967323461550
+    second: Coins_4
   - first:
-      213: -7706788487438311687
-    second: Apple_5
+      213: 1942777921290549423
+    second: Coins_5
   - first:
-      213: 8638710384840876012
-    second: Apple_6
+      213: 8793606821965667882
+    second: Coins_6
   - first:
-      213: -4689406079702324653
-    second: Apple_7
+      213: 3444832735345940322
+    second: Coins_7
   - first:
-      213: -4804661220611782958
-    second: Apple_8
+      213: -4986890610287934012
+    second: Coins_8
   - first:
-      213: 542562350195365616
-    second: Apple_9
+      213: 6143208460787649835
+    second: Coins_9
   - first:
-      213: 1535906679059638393
-    second: Apple_10
+      213: 7609282858266732271
+    second: Coins_10
   - first:
-      213: -6207369124864647917
-    second: Apple_11
+      213: -6288512792030432889
+    second: Coins_11
   - first:
-      213: 7209791866757004406
-    second: Apple_12
+      213: 5500924173917707303
+    second: Coins_12
   - first:
-      213: -1462588236305530756
-    second: Apple_13
+      213: 514243555428973059
+    second: Coins_13
   - first:
-      213: 4023135878370671054
-    second: Apple_14
+      213: 9222263516843826340
+    second: Coins_14
   - first:
-      213: -337911150936919937
-    second: Apple_15
-  - first:
-      213: 9139289913481491577
-    second: Apple_16
+      213: 1994702816597272900
+    second: Coins_15
   externalObjects: {}
-  serializedVersion: 10
+  serializedVersion: 11
   mipmaps:
     mipMapMode: 0
     enableMipMap: 0
@@ -74,6 +71,7 @@ TextureImporter:
   isReadable: 0
   streamingMipmaps: 0
   streamingMipmapsPriority: 0
+  vTOnly: 0
   grayScaleToAlpha: 0
   generateCubemap: 6
   cubemapConvolution: 0
@@ -82,9 +80,9 @@ TextureImporter:
   maxTextureSize: 2048
   textureSettings:
     serializedVersion: 2
-    filterMode: 0
-    aniso: -1
-    mipBias: -100
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
     wrapU: 1
     wrapV: 1
     wrapW: 1
@@ -105,16 +103,20 @@ TextureImporter:
   textureType: 8
   textureShape: 1
   singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
   maxTextureSizeSet: 0
   compressionQualitySet: 0
   textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 1
   platformSettings:
   - serializedVersion: 3
     buildTarget: DefaultTexturePlatform
     maxTextureSize: 2048
     resizeAlgorithm: 0
     textureFormat: -1
-    textureCompression: 0
+    textureCompression: 1
     compressionQuality: 50
     crunchedCompression: 0
     allowsAlphaSplitting: 0
@@ -126,24 +128,48 @@ TextureImporter:
     maxTextureSize: 2048
     resizeAlgorithm: 0
     textureFormat: -1
-    textureCompression: 0
+    textureCompression: 1
     compressionQuality: 50
     crunchedCompression: 0
     allowsAlphaSplitting: 0
     overridden: 0
     androidETC2FallbackOverride: 0
-    forceMaximumCompressionQuality_BC6H_BC7: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 1
+  - serializedVersion: 3
+    buildTarget: iPhone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 1
+  - serializedVersion: 3
+    buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 1
   spriteSheet:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: Apple_0
+      name: Coins_0
       rect:
         serializedVersion: 2
-        x: 0
-        y: 0
-        width: 32
-        height: 32
+        x: 68
+        y: 64
+        width: 128
+        height: 128
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -151,20 +177,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: b8a08d8fa27377c4a953e5166a4e378a
-      internalID: 7293598183456022363
+      spriteID: 664b1e88ab4f5cfd0800000000000000
+      internalID: -2322180950842035098
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Apple_1
+      name: Coins_1
       rect:
         serializedVersion: 2
-        x: 32
-        y: 0
-        width: 32
-        height: 32
+        x: 240
+        y: 64
+        width: 114
+        height: 128
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -172,20 +198,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: f02a7fa3ffeb30a4199e0351b4344f8f
-      internalID: 3211865404380153573
+      spriteID: 4e99f4d782e151cb0800000000000000
+      internalID: -4893972260818282012
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Apple_2
+      name: Coins_2
       rect:
         serializedVersion: 2
-        x: 64
-        y: 0
-        width: 32
-        height: 32
+        x: 398
+        y: 64
+        width: 100
+        height: 128
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -193,20 +219,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 06b3375f0ba8c0142b7aad447dbbbae3
-      internalID: 4808522734667448011
+      spriteID: aaa1e681fd58d38a0800000000000000
+      internalID: -6323751108524238166
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Apple_3
+      name: Coins_3
       rect:
         serializedVersion: 2
-        x: 96
-        y: 0
-        width: 32
-        height: 32
+        x: 542
+        y: 64
+        width: 88
+        height: 128
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -214,20 +240,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 960f1f000bcb718488f0325a35b894a1
-      internalID: -8577097333041121892
+      spriteID: dbc2264f56b77c520800000000000000
+      internalID: 2722280177590742205
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Apple_4
+      name: Coins_4
       rect:
         serializedVersion: 2
-        x: 128
-        y: 0
-        width: 32
-        height: 32
+        x: 674
+        y: 64
+        width: 76
+        height: 128
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -235,20 +261,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 37de86aa0dcf0a948ae6dd77bbbd73d9
-      internalID: 1419576285154770477
+      spriteID: ea78046f7d0285b50800000000000000
+      internalID: 6582046967323461550
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Apple_5
+      name: Coins_5
       rect:
         serializedVersion: 2
-        x: 160
-        y: 0
-        width: 32
-        height: 32
+        x: 793
+        y: 64
+        width: 65
+        height: 128
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -256,20 +282,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 37705b0046b0cdb4f8be3391619ab868
-      internalID: -7706788487438311687
+      spriteID: fa8bef3e93226fa10800000000000000
+      internalID: 1942777921290549423
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Apple_6
+      name: Coins_6
       rect:
         serializedVersion: 2
-        x: 192
-        y: 0
-        width: 32
-        height: 32
+        x: 902
+        y: 64
+        width: 58
+        height: 128
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -277,20 +303,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 6944f29b9357660429c0802790c65fcb
-      internalID: 8638710384840876012
+      spriteID: a2e17b560da290a70800000000000000
+      internalID: 8793606821965667882
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Apple_7
+      name: Coins_7
       rect:
         serializedVersion: 2
-        x: 224
-        y: 0
-        width: 32
-        height: 32
+        x: 1003
+        y: 64
+        width: 47
+        height: 128
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -298,20 +324,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 3606c8283f75c0546bb0e1041976d1d6
-      internalID: -4689406079702324653
+      spriteID: 2679eec0f118ecf20800000000000000
+      internalID: 3444832735345940322
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Apple_8
+      name: Coins_8
       rect:
         serializedVersion: 2
-        x: 256
-        y: 0
+        x: 1094
+        y: 64
         width: 32
-        height: 32
+        height: 128
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -319,20 +345,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 1addb6c313dfe2f4a99b92c0a7e0b5e6
-      internalID: -4804661220611782958
+      spriteID: 4c58e0069610bcab0800000000000000
+      internalID: -4986890610287934012
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Apple_9
+      name: Coins_9
       rect:
         serializedVersion: 2
-        x: 288
-        y: 0
-        width: 32
-        height: 32
+        x: 1170
+        y: 64
+        width: 46
+        height: 128
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -340,20 +366,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 945871b795429e44886b112764cf3d89
-      internalID: 542562350195365616
+      spriteID: b2d0c660c8f014550800000000000000
+      internalID: 6143208460787649835
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Apple_10
+      name: Coins_10
       rect:
         serializedVersion: 2
-        x: 320
-        y: 0
-        width: 32
-        height: 32
+        x: 1260
+        y: 64
+        width: 58
+        height: 128
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -361,20 +387,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 454305dfe8422c24dbf414b73bb7af7c
-      internalID: 1535906679059638393
+      spriteID: fe62572a17a999960800000000000000
+      internalID: 7609282858266732271
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Apple_11
+      name: Coins_11
       rect:
         serializedVersion: 2
-        x: 352
-        y: 0
-        width: 32
-        height: 32
+        x: 1361
+        y: 64
+        width: 65
+        height: 128
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -382,20 +408,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: dae896e063923c24fa64acad79e2d19b
-      internalID: -6207369124864647917
+      spriteID: 781b6810fe6bab8a0800000000000000
+      internalID: -6288512792030432889
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Apple_12
+      name: Coins_12
       rect:
         serializedVersion: 2
-        x: 384
-        y: 0
-        width: 32
-        height: 32
+        x: 1470
+        y: 64
+        width: 76
+        height: 128
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -403,20 +429,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 6f6686c46dcdd1245804c5903fa45daa
-      internalID: 7209791866757004406
+      spriteID: 72c59ba1465375c40800000000000000
+      internalID: 5500924173917707303
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Apple_13
+      name: Coins_13
       rect:
         serializedVersion: 2
-        x: 416
-        y: 0
-        width: 32
-        height: 32
+        x: 1590
+        y: 64
+        width: 88
+        height: 128
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -424,20 +450,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: d2d678a7f900dbf4dab4f5f0eed8a0d9
-      internalID: -1462588236305530756
+      spriteID: 30ab0610ac5f22700800000000000000
+      internalID: 514243555428973059
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Apple_14
+      name: Coins_14
       rect:
         serializedVersion: 2
-        x: 448
-        y: 0
-        width: 32
-        height: 32
+        x: 1721
+        y: 64
+        width: 101
+        height: 128
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -445,20 +471,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 0455f04e92d89db4cbe14eeed5e6a856
-      internalID: 4023135878370671054
+      spriteID: 4ac55829ecf0cff70800000000000000
+      internalID: 9222263516843826340
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Apple_15
+      name: Coins_15
       rect:
         serializedVersion: 2
-        x: 480
-        y: 0
-        width: 32
-        height: 32
+        x: 1866
+        y: 64
+        width: 114
+        height: 128
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -466,29 +492,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 48ed5cdde0c68304fa1241c934611c5d
-      internalID: -337911150936919937
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Apple_16
-      rect:
-        serializedVersion: 2
-        x: 512
-        y: 0
-        width: 32
-        height: 32
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: ab2a044731e611b40bfe5447aa3bc978
-      internalID: 9139289913481491577
+      spriteID: 44960cfa4ab9eab10800000000000000
+      internalID: 1994702816597272900
       vertices: []
       indices: 
       edges: []
@@ -496,7 +501,7 @@ TextureImporter:
     outline: []
     physicsShape: []
     bones: []
-    spriteID: 5e97eb03825dee720800000000000000
+    spriteID: 72d9de1359ca43945846d5461255aba6
     internalID: 0
     vertices: []
     indices: 

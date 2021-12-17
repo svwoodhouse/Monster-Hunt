@@ -7,6 +7,8 @@ TagManager:
   - Ground
   - UserName
   - Chest
+  - Fruit
+  - Coin
   layers:
   - Default
   - TransparentFX
